@@ -1,8 +1,8 @@
 # scraper-customer-ai-kit
 
-A **plug-and-play kit** that runs a free, open-source Google Maps scraper **on your own computer**
-and lets **Claude** drive it on autopilot — give Claude a city + a business type, get back a clean
-list of businesses (name, address, phone, website, rating, reviews, lat/lng, emails).
+<p align="center">
+  <img src="assets/banner.svg" alt="Scraper Customer — run a free Google Maps scraper locally, let Claude drive it on autopilot" width="100%">
+</p>
 
 Built as a thin wrapper around [**`https://github.com/contract1/scraper-customer-ai-kit`**](https://github.com/contract1)
 by **Marcelo Becker**. See [CREDITS.md](CREDITS.md). This kit adds: a one-command Docker setup,
