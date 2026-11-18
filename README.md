@@ -1,9 +1,5 @@
 # scraper-customer-ai-kit
 
-<p align="center">
-  <img src="assets/banner.svg" alt="Scraper Customer — run a free Google Maps scraper locally, let Claude drive it on autopilot" width="100%">
-</p>
-
 Built as a thin wrapper around [**`https://github.com/contract1/scraper-customer-ai-kit`**](https://github.com/contract1)
 by **Marcelo Becker**. See [CREDITS.md](CREDITS.md). This kit adds: a one-command Docker setup,
 ready-to-run scripts, and a **Claude skill** so Claude knows exactly how to use the API the right way.
