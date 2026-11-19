@@ -1,4 +1,4 @@
-# Runs the open-source Google Maps scraper (gosom/google-maps-scraper) locally.
+# Runs the open-source Scraper Customer (scraper-customer-ai-kit) locally.
 # Web/API mode on http://localhost:8080. The image has NO built-in auth, so we bind
 # to 127.0.0.1 ONLY — that localhost binding is the security boundary. Do not change
 # the port mapping to 0.0.0.0 / a public interface without putting an auth proxy in front.
@@ -10,7 +10,7 @@ services:
     # emulation; if it won't start, UNCOMMENT the 'platform' line below.
     image: gosom/google-maps-scraper:v1.18.1
     # platform: linux/amd64
-    container_name: gmaps-scraper
+    container_name: scraper-engine
     restart: unless-stopped
     command: ["-web", "-data-folder", "/gmapsdata"]
     # Not published directly — the 'web' proxy below serves it on localhost:8080.
@@ -25,7 +25,7 @@ services:
   # proxies the API unchanged. Routing lives in nginx.conf.
   web:
     image: nginx:1.27-alpine
-    container_name: gmaps-web
+    container_name: frontend-scraper
     restart: unless-stopped
     depends_on:
       - google-maps-scraper

@@ -1,6 +1,6 @@
 ---
 name: google-maps-scraper
-description: Scrape Google Maps business listings (name, address, phone, website, rating, reviews, lat/lng, hours, emails) via the local gosom google-maps-scraper REST API. Use when the user wants local-business / lead-gen data, "a list of [businesses] in [place]", or to enrich places with contact info. NOT for Instagram/TikTok/YouTube or any social-media scraping.
+description: Scrape Google Maps business listings (name, address, phone, website, rating, reviews, lat/lng, hours, emails) via the local contract1/scraper-customer-ai-kit REST API. Use when the user wants local-business / lead-gen data, "a list of [businesses] in [place]", or to enrich places with contact info. NOT for Instagram/TikTok/YouTube or any social-media scraping.
 ---
 
 # Google Maps Scraper

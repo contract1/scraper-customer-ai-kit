@@ -1,4 +1,4 @@
-// Maps Scraper — "Painel" (dashboard) mode for the local gosom/google-maps-scraper REST API.
+// Maps Scraper — "Painel" (dashboard) mode for the local contract1/scraper-customer-ai-kit REST API.
 // Same API/data as the map mode (app.js); a job can be opened directly with /painel#job=<id>,
 // otherwise the most recent finished search opens automatically.
 (() => {

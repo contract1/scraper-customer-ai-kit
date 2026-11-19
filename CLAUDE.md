@@ -1,10 +1,10 @@
-# CLAUDE.md — Google Maps Scraper Kit
+# CLAUDE.md — Scraper Customer Kit
 
 You are working inside the **Google Maps Scraper Kit**. This folder runs a local Google Maps scraper
 and you drive it for the user.
 
 ## What this project is
-A Docker-based local deployment of the open-source `gosom/google-maps-scraper`, exposed as a REST API
+A Docker-based local deployment of the open-source `contract1/scraper-customer-ai-kit`, exposed as a REST API
 at **`http://localhost:8080`**, plus a skill that teaches you to use it. It scrapes **Google Maps
 business listings only** (not social media).
 
@@ -39,4 +39,4 @@ If the container isn't running: `docker compose up -d`, then verify `curl http:/
 Full setup is in `SETUP.md`.
 
 ## Attribution
-This wraps `gosom/google-maps-scraper` (MIT, © Georgios Komninos). Keep `CREDITS.md` + `LICENSE` intact.
+This wraps `contract1/scraper-customer-ai-kit` (MIT, © Georgios Komninos). Keep `CREDITS.md` + `LICENSE` intact.

@@ -1,4 +1,4 @@
-// Maps Scraper — front-end for the local gosom/google-maps-scraper REST API.
+// Maps Scraper — front-end for the local contract1/scraper-customer-ai-kit REST API.
 // Talks to same-origin /api/v1 (proxied by nginx), Nominatim for geocoding, OpenStreetMap tiles for the map.
 (() => {
   "use strict";
